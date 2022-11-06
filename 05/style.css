@@ -1,0 +1,49 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(248, 205, 152);
+}
+header{
+    padding: 20px;
+    background-color: rgb(52, 52, 164);
+    color: white;
+}
+p{
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+    padding: 5px;
+}
+
+#principal{
+    width: 800px;
+    margin: auto;
+}
+figure{
+    background-color: white;
+    width: 300px;
+    margin: 15px auto;
+    border: 1px solid black;
+    padding: 10px;
+
+}
+figure img{
+    width: 100%;
+}
+figcaption{
+    text-align: center;
+    font-style: italic;
+    padding: 5px;
+}
+footer{
+    color: white;
+    background-color: rgb(52, 52, 164);
+    font-weight: bolder;
+    padding: 10px;
+}
+h1:hover{
+    color:rgb(248, 205, 152);
+}
