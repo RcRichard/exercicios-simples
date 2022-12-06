@@ -1,0 +1,43 @@
+body{
+    background-image: url(fundo.jpg);
+}
+.box{
+    color: white;
+    background-color:rgba(0, 0, 0, 0.597);
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+fieldset{
+    border: 2px solid white;
+    
+}
+div{
+    position: relative;
+    padding: 5px;
+}
+input{
+    width: 100%;
+    border-radius: 8px;
+    height: 25px;
+}
+label{
+    font-size: bolder;
+}
+#funcao{
+    width: 100%;
+    height:30px;
+    border-radius: 8px;
+}
+textarea{
+    padding: 10px;
+    display: block;
+    margin: 10px auto;
+    width: 400px;
+    border-radius: 10px;
+    resize: vertical;
+}

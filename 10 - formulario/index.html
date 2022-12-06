@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <div class="box">
+        <form action="">
+            <fieldset>
+                <div>
+                    <label>Nome</label>
+                    <input type="text" name="nome" id="nome">
+                </div>
+                <div >
+                    <label>E-mail</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div>
+                    <label>Idade</label>
+                    <input type="number" name="age" id="idade" min="10" max="99">
+                </div>
+                <div>
+                    <p>Qual opção melhor descreve sua função atual?</p>
+                    <select id="funcao" required>
+                        <option selected disabled value="">Selecione...</option>
+                        <option value="estudante">Estudante</option>
+                        <option value="trabalho">Trabalho em tempo integral</option>
+                        <option value="aluno">Aluno em tempo integral</option>
+                    </select>
+                </div>
+                <br>
+                <div class="selecao">
+                    <p>Você recomendaria o Cursoemvideo a um amigo?</p>
+                    <input type="radio"id="selecao" value="sim" required>
+                    <label for="sim">sim</label>
+                    <input type="radio" id="selecao" value="nao" required>
+                    <label for="nao">não</label>
+                </div>
+                <div>
+                    <label>Deixe sugestões</label>
+                    <textarea name="Sugestoes" id="segestoes" cols="30" rows="6"></textarea>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
