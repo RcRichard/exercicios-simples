@@ -1,10 +1,12 @@
 body{
     background-image: url(fundo.jpg);
+    margin: 95vh;
 }
 .box{
+    
     color: white;
     background-color:rgba(0, 0, 0, 0.597);
-    margin: 10px;
+    margin: 30px;
     padding: 20px;
     border-radius: 10px;
     position: absolute;
@@ -14,7 +16,6 @@ body{
 }
 fieldset{
     border: 2px solid white;
-    
 }
 div{
     position: relative;
@@ -38,6 +39,7 @@ textarea{
     display: block;
     margin: 10px auto;
     width: 400px;
+    height: 10px;
     border-radius: 10px;
     resize: vertical;
 }
